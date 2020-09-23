@@ -57,10 +57,16 @@ Load the `fits` library:
 ]load fits
 ```
 
+Set `⎕IO` to 0 (zero-indexing):
+
+```apl
+⎕IO←0
+```
+
 Load headers from a LIGO fits file:
 
 ```apl
-fitspath←/Users/s/papers/2020-06-01-thesis_healtree_chapter/S200302c.multiorder.fits
+fitspath←'/Users/s/papers/2020-06-01-thesis_healtree_chapter/S200302c.multiorder.fits'
 h←fits.headers fitspath
 ```
 
