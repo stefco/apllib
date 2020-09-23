@@ -24,12 +24,24 @@ repository (again, replace the path with the actual work directory):
 ⎕SE.SALT.Save #.foo '/Users/s/dev/apllib/'
 ```
 
+or simply
+
+```apl
+]save #.foo '/Users/s/dev/apllib/'
+```
+
 You can now load `foo` either by specifying the full path to the `foo.dyalog`
 object created or by simply specifying `foo` (since this working copy should be
 in your SALT `workdir` path):
 
 ```apl
 ⎕SE.SALT.Load 'foo'
+```
+
+or simply
+
+```apl
+]load foo
 ```
 
 ## Further reading on SALT
