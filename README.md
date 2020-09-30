@@ -49,6 +49,11 @@ or simply
 [Dyalog SALT Reference Guide](http://docs.dyalog.com/14.0/Dyalog%20APL%20SALT%20Reference%20Guide.pdf)
 [PowerPoint intro to SALT (2008)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjn5aufyf3rAhWEzVkKHWdmBlkQFjACegQIBRAB&url=https%3A%2F%2Fwww.dyalog.com%2Fuploads%2Fconference%2Fdyalog08%2Fpresentations%2FW04_Baronet_SALTandSVN%2FSALT%2520in%2520Dyalog.ppt&usg=AOvVaw2jH-Aasg69OKj6R9UL9Z8s)
 
+## Cross-platform commands
+
+See Appendix 2 of the [User Commands User Guide](http://docs.dyalog.com/15.0/User%20Commands%20User%20Guide.pdf)
+
+
 ## `fits`: Utils for FITS image format
 
 Load the `fits` library:
